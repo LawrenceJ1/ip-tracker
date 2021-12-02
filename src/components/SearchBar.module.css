@@ -1,0 +1,51 @@
+.form {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.form input {
+  padding: 15px;
+  border-radius: 10px 0px 0px 10px;
+  width: 30vw;
+  border-width: 0px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form img {
+  background-color: hsl(0, 0%, 17%);
+  padding: 20px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.form img:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 59%);
+}
+
+.flashMessage {
+  font-size: 24px;
+  position: absolute;
+  margin-top: 95vh;
+  border: 2px solid rgb(223, 118, 118);
+  text-align: center;
+  width: 95vw;
+  border-radius: 5px;
+  background-color: rgb(223, 118, 118);
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+
+@media (max-width: 920px) {
+  .form input {
+    width: 70vw;
+  }
+}

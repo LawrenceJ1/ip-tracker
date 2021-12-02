@@ -1,0 +1,20 @@
+.card {
+  background-color: white;
+  text-align: left;
+  padding: 15px;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 2;
+  z-index: 5;
+}
+
+@media (max-width: 920px) {
+  .card {
+    width: 80vw;
+    height: 7.5vh;
+    text-align: center;
+    padding: 10px;
+  }
+}
