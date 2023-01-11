@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/LawrenceJ1/ip-tracker)
-- Live Site URL: [Heroku App](https://fm-ip.herokuapp.com/)
+- Live Site URL: [Github Pages](https://lawrencej1.github.io/ip-tracker/)
 
 ## My process
 
